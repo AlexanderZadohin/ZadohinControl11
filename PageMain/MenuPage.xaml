@@ -1,0 +1,18 @@
+﻿<Page x:Class="ZadohinControl11.PageMain.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZadohinControl11.PageMain"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" d:DesignWidth="190"
+      Title="MenuPage">
+
+    <Grid>
+        <StackPanel  VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="OtchetBtn" Width="150" Height="30" Margin="0 5 0 5" Content="Отчет" Click="OtchetBtn_Click"/>
+            <Button x:Name="UcetBtn" Content="Учет" Width="150" Height="30" Margin="0 5 0 5" Click="UcetBtn_Click"/>
+            <Button x:Name="OtcgetGroupBtn" Content="Отчет групп" Width="150" Height="30" Margin="0 5 0 5" Click="OtcgetGroupBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
